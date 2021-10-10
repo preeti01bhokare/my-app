@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header css */
+
+.commonHeader {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    background: #4a2c6a;
+    z-index: 9999;
+}
+.custom_navbar {
+    margin: 8px -30px;
+}
+.marginTop{
+    margin-top: 100px;
+}
+.logo-brand, .logo-brand:hover {
+    color: #fff;
+    font-weight: 500;
+    font-size: 22px;
+    padding: 5px 15px;
+    text-decoration: none;
+}
+.custom-link, .custom-link:hover {
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 5px 15px;
+    text-decoration: none;
+}
+
+
+/* end header css */
+
+
+.form-wrapper{
+    background: rgb(255,255,255,0.8);
+    padding: 25px;
+}
+.form-wrapper input, .form-wrapper textarea,  .form-wrapper select{
+    width: 100%;
+    min-height: 45px;
+    border: 1px solid #E5E4E4;
+    padding: 0px 15px;
+    color: #333333;
+    font-size: 14px;
+    font-weight: 500;
+    outline: 0px;
+    margin-bottom: 20px;
+    line-height: 45px;
+}
+.custom_labels{
+    margin-bottom: 6px;
+    color: #333333;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .submit-btn{
+    min-width: 200px;
+    height: 50px;
+    border: 0px;
+    outline: 0px !important;
+    color: #fff;
+    background: #E44AAF;
+    font-size: 15px;
+    font-weight: 600;
+    transition: all 0.3s ease-out;
+}
+.submit-btn:hover {
+    color: #3f2c6b;
+}
+ .commonbanner {
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
